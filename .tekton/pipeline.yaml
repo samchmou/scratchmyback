@@ -1,0 +1,25 @@
+---
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: pipeline-scratch-my-back
+spec:
+  params:
+    - name: repo_url
+    - name: revision
+  tasks:
+    - name: task-task3
+      taskSpec:
+        steps:
+          - name: first-step
+            image: registry.access.redhat.com/ubi8/ubi-minimal:8.2
+            script: |
+              echo "Hello from taskSpec"
+
+    - name: task-task1
+      taskRef:
+        name: task1
+
+    - name: task-task2
+      taskRef:
+        name: task2
