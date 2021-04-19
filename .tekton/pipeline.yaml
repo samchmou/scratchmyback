@@ -23,3 +23,7 @@ spec:
     - name: task-task2
       taskRef:
         name: task2
+
+    - name: task-from-remote
+      taskRef:
+        name: task-remote
