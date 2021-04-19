@@ -1,5 +1,2 @@
 tasks:
-  - buildah:latest
-  - git-clone:0.1
   - https://github.com/chmouel/catalog/raw/add-codecov-task/task/codecov/0.1/codecov.yaml
-  - task/task.yaml
