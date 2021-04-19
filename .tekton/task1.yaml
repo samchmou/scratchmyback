@@ -10,4 +10,3 @@ spec:
       script: |
         #!/usr/bin/python3
         print("Hello task1")
-        sys.exit(1)
