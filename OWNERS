@@ -1,2 +1,4 @@
 approvers:
   - chmouel
+reviewers:
+  - foobar
