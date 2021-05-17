@@ -1,6 +1,10 @@
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
+annotations:
+  pipelines.openshift.io/on-target-branch: [main]
+  pipelines.openshift.io/on-event: [pull-request]
+  # pipelines.openshift.io/on-tag: [1.0] TODO: tags
 metadata:
   name: pipeline-scratch-my-back
 spec:
