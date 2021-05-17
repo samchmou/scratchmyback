@@ -4,8 +4,7 @@ kind: PipelineRun
 metadata:
   annotations:
     pipelinesascode.tekton.dev/on-target-branch: [main]
-    pipelinesascode.tekton.dev/on-event: [pull_request]
-    # pipelines.openshift.io/on-tag: [1.0] TODO: tags
+    pipelinesascode.tekton.dev/on-event: [push]
   name: scratch-my-back-pr
 spec:
   pipelineRef:
