@@ -13,7 +13,7 @@ Ain't no sunshine when she's gone
 And this house just ain't no home
 Anytime she goes away
 And I know, I know, I know, I know
-I know, I know, I know, I know, I know
+I know, I know, I know, I know, I knowaaaa
 I know, I know, I know, I know, I know
 I know, I know, I know, I know, I know
 I know, I know, I know, I know, I know
